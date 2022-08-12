@@ -29,7 +29,7 @@ function save(){
     for (i=0; i<saveArr.length; i++){
         sum+=saveArr[i];
     }
-      sumr.textContent+=sum+" "+"-";
+      sumr.textContent=sum;
         console.log(saveArr);
       
       
